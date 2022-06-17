@@ -1,0 +1,33 @@
+.pagination--container {
+  display: flex;
+  width: 100%;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+  .pagination--item {
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    margin: 0.2rem;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #353535;
+
+    .pagination--button {
+      font-size: 20px;
+      background: #353535;
+      color: white;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        color: #ec1d24;
+      }
+    }
+  }
+}
